@@ -21,8 +21,8 @@ body{
 /*header*/
 .header {
     display: flex;
-    padding: 20px 300px;
-    justify-content: space-between;
+    padding: 20px;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
 }
@@ -62,27 +62,27 @@ body{
     width: 50%;
     background-color: aqua;
 }
-.hero-tag{
+.tag{
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.hero-tag img{
+.tag img{
     width: 25px;
     height: 25px;
 }
-.hero-title{
+.title{
     font-weight: bold;
     font-size: 60px;
     margin: 0;
     color: white;
 }
-.hero-tag{
+.tag{
     color: white;
     font-size: 21px;
     font-style: italic;
 }
-.hero-subtitle{
+.subtitle{
     color: white;
     font-size: 27px;
 }
@@ -102,4 +102,125 @@ body{
 .hero-contact-left img{
     width: 40px;
     height: 40px;
+}
+/*qualities*/
+.qualities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 300px;
+    gap: 60px;
+    background-color: white;
+}
+.quality-img{
+    background-color: #ff512f;
+    padding:20px;
+    width: 100px;
+}
+.quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+.quality p{
+    margin:0;
+}
+.quality-title{
+    font-weight: bold;
+    font-size: 23px;
+}
+.quality-divider{
+    width: 25px;
+    filter: grayscale(90%);
+    margin: 10px 0px;
+}
+.quality-description{
+    font-size: 18px;
+    line-height: 30px;
+}
+.quality-button{
+    padding: 20px 60px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Lora";
+    margin-top: 25px;
+}
+.separator{
+    padding: 0px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 120px;
+}
+/*ingredients*/
+.ingredients{
+    display: flex;
+    padding: 0px 250px;
+    background-color: white;
+}
+.ingredients-left{
+    /* background-color: #3562c4; */
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+.ingredients-left img{
+    height: 620px;
+}
+.ingredients-right{
+    /* background-color: #1dd8af; */
+    padding-left:20px;
+    /* padding-right: 250px; */
+    flex: 1 1 0px;
+}
+.ingredients-tag,
+.ingredients-title,
+.ingredients-subtitle{
+    color: #222222;
+}
+.ingredients-subtitle{
+    font-size: large;
+    line-height: 35px;
+}
+.ingredient-list-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 10px;
+    font-size: large;
+}
+.ingredient-list-item p{
+    padding: 0;
+    margin: 0;
+}
+.ingredient-list img{
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+}
+/*catering*/
+.catering{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f1317;
+    padding: 70px 30px;
+}
+.catering-button{
+    padding: 20px 60px;
+    background-color: #0f1317;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Lora";
+    margin-top: 25px;
 }
