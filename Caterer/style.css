@@ -59,6 +59,8 @@ body{
 }
 .hero-right{
     background-image: url(images/hero-picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 50%;
     background-color: aqua;
 }
@@ -223,4 +225,37 @@ body{
     font-weight: 600;
     font-family: "Lora";
     margin-top: 25px;
+}
+.catering-services-grid{
+    display: flex;
+    gap: 30px;
+    padding: 60px 0px;
+}
+.catering-service{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.catering-service-image{
+    width:400px;
+    height: auto;
+}
+.catering-service-title{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0px;
+    margin: 0;
+}
+.catering-service-subtitle{
+    margin: 0;
+    padding-bottom:30px;
+    color: rgb(182, 180, 180);
+}
+.catering-separator{
+    width: 80px;
+}
+.catering-price{
+    font-size: larger;
 }
