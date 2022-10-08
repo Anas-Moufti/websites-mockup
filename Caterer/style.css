@@ -259,3 +259,100 @@ body{
 .catering-price{
     font-size: larger;
 }
+/*cat*/
+.cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0px;
+    background-image: url(./images/pattern-orange.png);
+    
+    
+}
+.cat img {
+    width: 100px;
+}
+.cat-title{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+}
+.cat-subtitle{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+.cat-button{
+    background-color: white;
+    border: none;
+    color: #222222;
+    font-size: 22px;
+    font-family: "Lora";
+    font-weight: bold;
+    padding: 20px 40px;
+    margin-top: 30px;
+}
+/*why*/
+.why{
+    display: flex;
+    padding: 100px 280px;
+    background-color: white;
+    gap: 50px;
+}
+.why-right{
+    flex: 1 1 0px;
+}
+.why-right img{
+    height: 700px;
+}
+.why-left{
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.why-tag{
+    color: #222222;
+}
+.why-tag p{
+    margin: 0;
+}
+.why-title{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    color: #222222;
+}
+.why-subtitle{
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #222222;
+    padding-right: 70px;
+    line-height: 40px;
+    flex-grow: 0;
+}
+.why-quality{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.why-quality img{
+    width: 60px;
+}
+.why-quality h4{
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.why-quality h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 70px;
+    line-height: 30px;
+}
